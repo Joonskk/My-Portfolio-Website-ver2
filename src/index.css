@@ -1,0 +1,297 @@
+:root {
+  --light: #ffffff;
+  --dark: #111111;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 100;
+}
+
+main {
+  font-family: sans-serif;
+  letter-spacing: -0.5px;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 90vh;
+  position: relative;
+}
+
+.mainLight {
+  background-color: var(--light);
+  color: var(--dark);
+  transition-duration: 1s;
+}
+
+.mainDark {
+  background-color: var(--dark);
+  color: var(--light);
+  transition-duration: 1s;
+}
+
+/****** Theme ******/
+
+.theme {
+  font-weight: 100;
+  font-size: 13px;
+  height: 15px;
+  transform-origin: top left;
+  transform: rotate(270deg);
+  position: fixed;
+  left: 0;
+  bottom: 5px;
+}
+
+.theme ul {
+  display: flex;
+}
+
+.theme ul li {
+  list-style: none;
+  margin-right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 9px;
+  height: 9px;
+  border: 1px solid var(--dark);
+  margin-right: 4px;
+}
+
+.lightbox {
+  background-color: var(--dark);
+}
+
+.darkbox {
+  background-color: var(--light);
+}
+
+/****** Main *******/
+.main {
+  border: 1px solid var(--dark);
+  width: calc(100% - 40px);
+  height: calc(100% - 40px);
+  margin: auto;
+  position: fixed;
+  top: 20px;
+  overflow: auto;
+}
+
+.lightborder {
+  border: 1px solid var(--dark);
+}
+
+.darkborder {
+  border: 1px solid var(--light);
+}
+
+.container {
+  margin: 15px 0 0 22px;
+  width: 200px;
+  position: fixed;
+}
+
+.name h1 {
+  font-size: 30px;
+}
+
+.name h2 {
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.navigation {
+  margin-top: 50px;
+}
+
+.navigation ul {
+  font-size: 13px;
+  list-style: none;
+}
+
+.navigation ul li {
+  margin-bottom: 10px;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 700;
+}
+
+/******* Home *******/
+.home {
+  width: 135px;
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+}
+
+.home p {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+/******* Projects *******/
+.projects {
+  position: absolute;
+  right: 20px;
+  top: 100px;
+}
+
+.project {
+  margin-bottom: 20px;
+  text-align: right;
+}
+
+.project .title {
+  font-size: 50px;
+}
+
+.project .title a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.project .title a:hover {
+  
+}
+
+.project .subtext {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+/******* Info *******/
+.info {
+  font-size: 13px;
+  width: 200px;
+  position: absolute;
+  right: 0;
+  bottom: 20px;
+}
+
+.sns {
+  margin-bottom: 50px;
+}
+
+.sns a {
+  display: block;
+  font-weight: 700;
+  font-size: 13px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.sns a:hover {
+  text-decoration: underline;
+}
+
+.subwebsite {
+  margin-bottom: 50px;
+}
+
+.subwebsite a {
+  font-weight: 700;
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.subwebsite a:hover {
+  text-decoration: underline;
+}
+
+.awards {
+  width: 100%;
+  color: inherit;
+}
+
+.awards h1, .awards h2 {
+  font-size: 13px;
+}
+
+.awards h2 {
+  font-weight: 700;
+}
+
+/******* Contact *******/
+.contact {
+  position: absolute;
+  bottom: 40px;
+  right: 20px;
+}
+
+.contact a {
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: none;
+  color: inherit;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+/******* FAQ *******/
+.faq {
+  position: absolute;
+  top: 130px;
+  left: 250px;
+}
+
+.item {
+  margin-bottom: 60px;
+  width: 450px;
+}
+
+.faq .item .question {
+  width: 100%;
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.faq .item .answer {
+  width: 100%;
+  font-size: 13px;
+}
+
+/******* animation *******/
+.home, .projects, .info, .contact, .faq {
+  opacity: 0;
+  animation-name: fadein;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fadeout {
+  animation-name: fadeout;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeout {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
