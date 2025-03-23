@@ -10,7 +10,7 @@ const FAQ = () => {
     {
       id: 2,
       question: "Where can I find you code?",
-      answer: "I have Github account and my projects (including this website) are in the repository."
+      answer: "I have Github account and my projects (including this website) are in the repository. You can link through inside the info page."
     },
     {
       id: 3,
