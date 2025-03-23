@@ -4,18 +4,18 @@ const FAQ = () => {
   const faq = [
     {
       id: 1,
-      question: "How did you make the background effect in this website?",
-      answer: "I use three.js to write WebGL faster and the background effect is written in glsl. If you are interested in glsl, I recommend you to read The Book of Shaders."
+      question: "How did you make this website?",
+      answer: "I used React to make this website because I thought React's Router option was really attractive to implement functions without refreshing."
     },
     {
       id: 2,
       question: "Where can I find you code?",
-      answer: "I have Github account but my projects (including this website) are private repository."
+      answer: "I have Github account and my projects (including this website) are in the repository."
     },
     {
       id: 3,
       question: "Can I use your code?",
-      answer: "I don't allow anyone to use my code. I don't wanna say such thing but I got too much questions about that."
+      answer: "I do allow everyone to use my code because I think this could also be some source in the internet."
     }
   ]
   
