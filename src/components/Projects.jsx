@@ -5,7 +5,7 @@ const Projects = () => {
   {
     id: 1,
     title: "Weather",
-    subtext: "Mar.2025 / Porfolio / Design & Dev"
+    subtext: "Mar.2025 / React + Typescript / Design & Dev"
   },
   {
     id: 2,
