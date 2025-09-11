@@ -5,22 +5,14 @@ const Projects = () => {
   {
     id: 1,
     title: "Weather",
-    subtext: "Mar.2025 / React + Typescript / Design & Dev"
+    subtext: "Mar.2025 / React + Typescript / Design & Dev",
+    url: "https://weather-website-wheat.vercel.app/"
   },
   {
     id: 2,
-    title: "100 DAYS OF POETRY",
-    subtext: "Oct.2025 / Porfolio / Design & Dev"
-  },
-  {
-    id: 3,
-    title: "buoy",
-    subtext: "Jan.2026 / Porfolio / Dev"
-  },
-  {
-    id: 4,
-    title: "VIXI",
-    subtext: "Sep.2026 / Porfolio / Design & Dev"
+    title: "Wearly",
+    subtext: "Apr.2025 / Next.js + Typescript + TailwindCSS / Design & Dev",
+    url: "https://fashion-community-two.vercel.app/"
   }
  ]
   
