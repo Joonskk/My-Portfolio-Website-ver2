@@ -26,8 +26,8 @@ const Nav = () => {
   return (
     <div className="container">
       <div className="name">
-       <h1>Joonseok Kim</h1>
-         <h2>Full Stack Web Developer</h2>
+        <h1>Joonseok Kim</h1>
+        <h2>Full Stack Web Developer & Data Analyst</h2>
       </div>
       <div className="navigation">
         <ul>

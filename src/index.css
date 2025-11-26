@@ -93,7 +93,7 @@ main {
 
 .container {
   margin: 15px 0 0 22px;
-  width: 200px;
+  width: 250px;
   position: fixed;
 }
 
@@ -144,6 +144,17 @@ main {
   position: absolute;
   right: 20px;
   top: 100px;
+}
+
+.projects-sort {
+  margin-bottom: 20px;
+  text-align: right;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.separator {
+  margin-bottom: 80px;
 }
 
 .project {
